@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url("Resources/pexels-egor-kamelev-813872.jpg");
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+}
+.myBox {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: rgba(49, 44, 44, 0.8); /* Add transparency to the background color */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+}
+
+
+form {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#weatherData {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#weatherData p {
+    margin-bottom: 10px;
+}
